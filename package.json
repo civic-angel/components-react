@@ -1,0 +1,39 @@
+{
+  "name": "halo-cl",
+  "version": "1.0.0",
+  "description": "Reusable JavaScript Components for nonprofit web projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/civic-angel/halo-cl.git"
+  },
+  "keywords": [
+    "React",
+    "JavaScript",
+    "Components"
+  ],
+  "author": "Liam Hockley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/civic-angel/halo-cl/issues"
+  },
+  "homepage": "https://github.com/civic-angel/halo-cl#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@types/react": "^17.0.38",
+    "babel-loader": "^8.2.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.5.4"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "dependencies": {}
+}
