@@ -2,29 +2,20 @@ import React from 'react';
 import './button.css';
 
 export interface ButtonProps {
-  primary?: boolean;
-  backgroundColor?: string;
-  size?: 'small' | 'medium' | 'large';
+  type?: 'default' | 'primary' | 'success' | 'danger';
   label: string;
   onClick?: () => void;
 }
 
-/**
- * Primary UI component for user interaction
- */
 const Button = ({
-  primary = false,
-  size = 'medium',
-  backgroundColor,
+  type = 'default',
   label,
   ...props
 }: ButtonProps) => {
-  const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
   return (
     <button
       type="button"
-      className={['storybook-button', `storybook-button--${size}`, mode].join(' ')}
-      style={{ backgroundColor }}
+      className={['btn', `btn-${type}`].join(' ')}
       {...props}
     >
       {label}

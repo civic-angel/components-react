@@ -1,3 +1,35 @@
 @import "../base.css";
 
+.btn {
+  font-size: 0.9rem;
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+  background: linear-gradient(transparent,rgba(0, 0, 0, 0.2)) top/100% 800%;
+  transition:0.5s;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+}
 
+.btn:hover {
+  background-position: bottom;
+}
+
+.btn-default {
+  color: black;
+  background-color: var(--color-gray) !important;
+}
+
+.btn-primary {
+  color: white;
+  background-color: var(--color-primary) !important;
+}
+
+.btn-success {
+  color: white;
+  background-color: var(--color-success) !important;
+}
+
+.btn-danger {
+  color: white;
+  background-color: var(--color-danger) !important;
+}
