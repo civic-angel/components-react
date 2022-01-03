@@ -1,6 +1,6 @@
 {
   "name": "halo-cl",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Reusable JavaScript Components for nonprofit web projects",
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
