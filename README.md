@@ -2,3 +2,7 @@
 
 # Halo: Web Component Library
 Reusable React-based JavaScript component library.
+
+## Getting Started
+`npm install` (install dependencies)
+`npm run` (list available commands)
